@@ -18,7 +18,7 @@ int main()
     int m1, m2;
     m1 = (y2 - y1)/(x2 - x1);
     m2 = (y3 - y2)/(x3 - x2);
-
+    
     if(m1 == m2)
         printf("Three points fall on one straight line");
     else
