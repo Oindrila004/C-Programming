@@ -15,7 +15,7 @@ int main()
     printf("Enter the third y-intercept: ");
     scanf("%d",&y3);
 
-    int m1, m2;
+    double m1, m2;
     m1 = (y2 - y1)/(x2 - x1);
     m2 = (y3 - y2)/(x3 - x2);
     
